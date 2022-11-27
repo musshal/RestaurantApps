@@ -133,6 +133,19 @@ object RestaurantsData {
     "Medan"
   )
 
+  private  val restaurantsAddress = arrayOf(
+    "Jln. Belimbing Timur No. 27",
+    "Jln. Pandeglang No. 19",
+    "Jln. Pustakawan No. 9",
+    "Jln. Belimbing Timur No. 27",
+    "Jln. Belimbing Timur No. 27",
+    "Jln. Pandeglang No. 19",
+    "Jln. Pustakawan No. 9",
+    "Jln. Belimbing Timur No. 27","Jln. Belimbing Timur No. 27",
+    "Jln. Pandeglang No. 19",
+    "Jln. Pustakawan No. 9",
+  )
+
   private  val restaurantsRating = arrayOf(4.6, 4.6, 4.8, 4.0, 3.8, 4.6, 3.6, 4.0, 3.9, 4.2)
 
   val listData: ArrayList<Restaurant>
@@ -147,6 +160,9 @@ object RestaurantsData {
         restaurant.picture = restaurantsPicture[position]
         restaurant.city = restaurantsCity[position]
         restaurant.rating = restaurantsRating[position]
+        restaurant.address = restaurantsAddress[position]
+
+        list.add(restaurant)
       }
 
       return list

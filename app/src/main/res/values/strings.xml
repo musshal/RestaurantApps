@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">RestaurantApps</string>
+    <string name="app_name">Restaurant Apps</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="restaurant_city">Restaurant City</string>
+    <string name="restaurant_description">Restaurant Description</string>
+    <string name="deskripsi">Deskripsi:</string>
+    <string name="restaurant_address">Restaurant Address</string>
+    <string name="about">About</string>
+    <string name="rating">Rating</string>
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
 </resources>
