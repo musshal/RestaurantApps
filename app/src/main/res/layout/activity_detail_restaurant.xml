@@ -80,7 +80,7 @@
                         android:id="@+id/tv_item_city"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="12sp"
+                        android:textSize="14sp"
                         android:layout_weight="1"
                         tools:text="@string/restaurant_city"
                         app:drawableStartCompat="@drawable/map_marker_detail" />
@@ -89,7 +89,7 @@
                         android:id="@+id/tv_item_address"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="12sp"
+                        android:textSize="14sp"
                         android:layout_weight="1"
                         android:gravity="end"
                         tools:text="@string/restaurant_address" />
@@ -114,7 +114,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
-                    android:textSize="12sp"
+                    android:textSize="14sp"
                     tools:text="@string/restaurant_description"/>
 
             </LinearLayout>
