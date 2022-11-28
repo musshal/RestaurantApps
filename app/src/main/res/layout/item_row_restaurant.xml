@@ -57,9 +57,9 @@
                     android:id="@+id/tv_item_rating"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="4"
+                    android:layout_weight="5"
                     android:textSize="14sp"
-                    tools:text="@string/rating"
+                    tools:text="@string/rate"
                     app:drawableStartCompat="@drawable/star" />
 
             </LinearLayout>

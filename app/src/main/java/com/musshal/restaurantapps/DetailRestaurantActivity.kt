@@ -9,6 +9,7 @@ import android.widget.TextView
 import android.widget.Toast
 import android.widget.Toolbar
 
+@Suppress("DEPRECATION")
 class DetailRestaurantActivity : AppCompatActivity() {
   companion object {
     const val KEY_RESTAURANT = "key_restaurant"

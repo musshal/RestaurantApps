@@ -3,6 +3,7 @@ package com.musshal.restaurantapps
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
+@Suppress("DEPRECATION")
 class AboutActivity : AppCompatActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
