@@ -125,25 +125,25 @@ object RestaurantsData {
     "Bali",
     "Ternate",
     "Gorontalo",
-    "Bali",
+    "Jakarta",
     "Malang",
     "Surabaya",
     "Aceh",
-    "Malang",
-    "Medan"
+    "Semarang",
+    "Tangerang"
   )
 
   private  val restaurantsAddress = arrayOf(
     "Jln. Belimbing Timur No. 27",
     "Jln. Pandeglang No. 19",
     "Jln. Pustakawan No. 9",
-    "Jln. Belimbing Timur No. 27",
-    "Jln. Belimbing Timur No. 27",
-    "Jln. Pandeglang No. 19",
-    "Jln. Pustakawan No. 9",
-    "Jln. Belimbing Timur No. 27","Jln. Belimbing Timur No. 27",
-    "Jln. Pandeglang No. 19",
-    "Jln. Pustakawan No. 9",
+    "Jln. Pisang Timur No. 27",
+    "Jln. Apel Selatan No. 27",
+    "Jln. Rambutan No. 19",
+    "Jln. Naga No. 9",
+    "Jln. Jurang Timur No. 27",
+    "Jln. Tiga No. 19",
+    "Jln. Satu No. 9",
   )
 
   private  val restaurantsRating = arrayOf(4.6, 4.6, 4.8, 4.0, 3.8, 4.6, 3.6, 4.0, 3.9, 4.2)
